@@ -2,7 +2,7 @@ class ViewController < UIViewController
 
   def viewDidLoad
     label = UILabel.alloc.initWithFrame([[5,20], [self.view.frame.size.width-10, 50]])
-    label.text = "Accrodion Example"
+    label.text = "Accordion Example"
     label.textAlignment = UITextAlignmentCenter
     self.view.addSubview(label)
 
