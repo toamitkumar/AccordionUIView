@@ -1,10 +1,15 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    accordion_view (0.0.1)
+      bubble-wrap
     bubble-wrap (1.1.4)
+    rake (10.0.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  accordion_view
   bubble-wrap
+  rake
